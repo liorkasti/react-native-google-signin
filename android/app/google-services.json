@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "608456881314",
+    "firebase_url": "https://rnsignin-97b2c.firebaseio.com",
+    "project_id": "rnsignin-97b2c",
+    "storage_bucket": "rnsignin-97b2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608456881314:android:4e8bdc54252ab3dbcf93fb",
+        "android_client_info": {
+          "package_name": "com.rngooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608456881314-dd8vsiapctt4vgllel8ql0h36j8hgev2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Q2_2sDs2jwgcj8rrXbWtho0PCEhSm2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608456881314-dd8vsiapctt4vgllel8ql0h36j8hgev2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
