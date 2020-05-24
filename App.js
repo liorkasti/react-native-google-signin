@@ -15,7 +15,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>app</Text>
-      {/* <GoogleLogin /> */}
+      <GoogleLogin />
     </View>
   );
 };
