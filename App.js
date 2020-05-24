@@ -8,21 +8,15 @@ import {
   StatusBar,
 } from 'react-native';
 
-import { GoogleLogin } from "../RNgooglesignin/android/RN_src/GoogleLogin"
+// import { GoogleLogin } from "../RNgooglesignin/android/RN_src/GoogleLogin"
+import { GoogleLogin } from "./android/RN_src/GoogleLogin"
 
-const App = () => {
+export default function App() {
   return (
     <View style={styles.container}>
-      <GoogleLogin />
+      <Text>app</Text>
+      {/* <GoogleLogin /> */}
     </View>
-
-    // <View style={styles.container}>
-    //   <StatusBar barStyle="dark-content" />
-    //   <SafeAreaView>
-    //     <Text>app</Text>
-    //     <GoogleLogin />
-    //   </SafeAreaView>
-    // </View>
   );
 };
 
@@ -33,5 +27,3 @@ const styles = StyleSheet.create({
     margin: 100,
   }
 });
-
-export default App;
